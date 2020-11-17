@@ -11,16 +11,27 @@ align-items: center;
 .center-item{
     background-color: #FFFDD0;    ;
  width: 100px;
- height: 100px;      
+ height: 100px;   
+
+}
+
+.left{
+width: 410px;
+display: flex;
+background-color: rgb(0, 140, 255);
+align-items: center;
+justify-content: space-between;
+
+
 }
 
 .navbar{
 
 display: flex;
-justify-content: space-between;
-align-items: center;
 background-color: rgb(0, 140, 255);
 
+justify-content: space-between;
+align-items: center;
 }
 
 .navbar .icon{
@@ -38,13 +49,12 @@ width: 80px;
 display: flex;
 justify-content: space-between;
 list-style-type: none; 
-
+width: 100%
 }
 
 .navbar .nav_links >li {
 
-margin-left: 30px;
-margin-right: 30px;
+margin-right: 40px;
 list-style-type: none; 
 
 }
